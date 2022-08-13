@@ -25,10 +25,7 @@ import numpy as np
 from datetime import datetime
 import time
 
-#references
-#https://towardsdatascience.com/learn-what-a-depth-chart-is-and-how-to-create-it-in-python-323d065e6f86
-#https://www.youtube.com/watch?v=KdoGekqz2hg&list=PLXWyO3HSkNw6Qa2KjrYUNa_YZeLbIXOd2&index=4&ab_channel=Algovibes
-#https://www.youtube.com/watch?v=KdoGekqz2hg&ab_channel=Algovibes
+
 
 
 #Data extraction 1 declarations
@@ -108,31 +105,4 @@ Dataplot_show1 = FuncAnimation(plt.gcf(),dataplot1,8000)
 plt.tight_layout()
 plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=None, hspace=None)
 plt.show()
-
-
-#Plot of bids and asks
-#fig, ax = plt.subplots(figsize=(18, 5))
-#    ax.set_title(f"VETUSDT BID & ASK Histogram")
-#    sns.histplot(x="price", hue="side", weights="quantity",
-#                 data=data2_bidask, palette=["green", "red"],
-#                 ax=ax)
-#    ax.set_xlabel("Price")
-#    ax.set_ylabel("Qty")
-#    plt.ticklabel_format(style='plain')
-#    plt.gcf().autofmt_xdate()
-#    plt.tight_layout()
-
-#Plot volume graph
-
-#schedule.every(10).seconds.do()
-
-#.........check my balance as of now
-#print(exchange.fetch_balance())
-#print(exchange.fetch_order_book())
-
-
-
-
-
-
 
